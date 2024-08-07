@@ -9,20 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hello-pangea/dnd": "^16.6.0",
+    "@types/styled-components": "^5.1.34",
     "antd": "^5.20.0",
     "express": "^4.19.2",
     "next": "14.2.5",
+    "next-auth": "^4.24.7",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "pg": "^8.12.0",
     "pg-hstore": "^2.3.4",
-    "react": "^18",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
     "@types/node": "^20.14.14",
     "@types/react": "^18.3.3",
+    "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-dom": "^18",
     "postcss": "^8",
     "prisma": "^5.17.0",
